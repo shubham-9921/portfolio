@@ -13,3 +13,7 @@ body {
 .bg-primary-color {
   @apply bg-gradient-to-r from-orange-400 to-pink-600  inline-block;
 }
+
+.imageShadow {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(33, 207, 238, 0.5));
+}
